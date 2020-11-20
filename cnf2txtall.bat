@@ -1,6 +1,6 @@
 @echo off
 
-echo Starting bach processing...
+echo Starting batch processing...
 for %%i in (*.cnf) do (
     echo %%i
     cnf2txt.exe "%%i"
